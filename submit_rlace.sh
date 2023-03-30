@@ -1,0 +1,1 @@
+python rlace.py -N $1 -R $2 -S $3
