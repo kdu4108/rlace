@@ -4,7 +4,7 @@
 # TIME=02:00:00  # HH:MM:SS (default: 04:00, max: 240:00)
 NUM_GPUS=0  # GPUs per node
 GPU_MODEL=gtx_1080_ti  # Choices: gtx_1080_ti,rtx_3090, nvidia_a100_80gb_pcie
-NUM_CPUS=4  # Number of cores (default: 1)
+NUM_CPUS=1  # Number of cores (default: 1)
 CPU_RAM=1024  # RAM for each core (default: 1024)
 OUTFILE=submit_rlace_$1_$2_$3.out  # default: lsf.oJOBID
 ERRORFILE=submit_rlace_$1_$2_$3.e
