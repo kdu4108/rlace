@@ -342,6 +342,7 @@ def main(NUM_CLASSES=2, RANK=1, SEED=0):
     eigs_after_svd, _ = np.linalg.eigh(P_svd)
     print("Eigenvalues, after SVD: {}".format(eigs_after_svd[:]))
 
+    wandb.finish()
     # this is used to check whether you need a final SVD to convert the P on the convex hull to an actual projection matrix.
     
     eps = 1e-6
