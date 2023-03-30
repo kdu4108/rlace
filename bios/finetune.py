@@ -1,3 +1,4 @@
+# Finetune on the professions dataset so that we're trying to remove the concept from a better-performing model than just the pretrained one.
 import sys
 import os
 
